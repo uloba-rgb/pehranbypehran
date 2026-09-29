@@ -1,0 +1,87 @@
+Update the PEHRAN website to reflect the new homepage and product page structure without changing any colors, backgrounds, fonts, or existing design elements. Only implement the content, text, and structure changes as described. Do NOT change the tagline — keep it in Urdu (“Made in Kashmir”).
+
+Instructions for Replit:
+
+Homepage / First Page:
+
+Content: Focus entirely on the story of PEHRAN and Kashmir.
+
+Include:
+
+Hero banner image (existing)
+
+Tagline: “Made in Kashmir” (in Urdu) — do not alter this.
+
+Section describing Pheran’s history, craftsmanship, and mountains heritage.
+
+Call-to-action button: “Explore Our Collections” → links to collection pages.
+
+Do NOT change colors, background images, fonts, layout, or tagline.
+
+Collection Pages:
+
+Three separate pages for product types:
+
+Tilla Velvet → Premium Pherans (Koh-e-Noor)
+
+Woolen Aari → Lightweight Pherans (Noorah)
+
+Shawls → Shawls (Gulnar)
+
+On each page:
+
+Page title: only the product type (e.g., Tilla Velvet)
+
+Product listings: show brand names + color only (e.g., Black Koh-e-Noor, Violet Noorah, Pink / Red Gulnar)
+
+Keep all existing layout, grids, spacing, background colors intact.
+
+Do NOT change images, colors, tagline, or style.
+
+Product Pages:
+
+Clicking a product opens a detailed page.
+
+Include:
+
+Product image (existing)
+
+Brand name + color (e.g., Black Koh-e-Noor)
+
+Material / size / care instructions / short story snippet.
+
+Do NOT change layout, styling, or tagline.
+
+General Instructions:
+
+Keep all existing design, fonts, colors, and backgrounds exactly as is.
+
+Only update text content, structure, collection order, and product brand names.
+
+Collections should appear in this order:
+
+Tilla Velvet (Koh-e-Noor)
+
+Woolen Aari (Noorah)
+
+Shawls (Gulnar)
+
+Additional Notes:
+
+Ensure the homepage flows first to the collection pages.
+
+Maintain the premium, emotional feel of the website.
+
+Do not introduce any new colors, images, fonts, or change the tagline.
+
+✅ Outcome Expected:
+
+Homepage focused on PEHRAN + Kashmir story
+
+Tagline remains “Made in Kashmir” (Urdu)
+
+Three product type pages with brand + color names
+
+Product pages showing details
+
+Design intact, no background, color, layout, or tagline changes
