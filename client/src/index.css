@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Montserrat', sans-serif;
+  --font-serif: 'Playfair Display', serif;
+
+  --color-background: hsl(3 86% 35%); /* #99170e - Main Red Background */
+  --color-foreground: #f3d9b0; /* #f3d9b0 - Custom Beige Text */
+
+  --color-primary: hsl(3 86% 35%); /* #99170e */
+  --color-primary-foreground: #f3d9b0;
+
+  --color-secondary: hsl(43 100% 50%); /* #ffb800 - Gold */
+  --color-secondary-foreground: hsl(0 0% 0%);
+
+  --color-accent: hsl(15 50% 23%); /* #592d1e - Brown */
+  --color-accent-foreground: #f3d9b0;
+
+  --color-muted: hsl(3 60% 25%); /* Darker red for muted areas */
+  --color-muted-foreground: #f3d9b0;
+
+  --color-card: hsl(3 70% 30%); /* Slightly different shade for cards */
+  --color-card-foreground: #f3d9b0;
+
+  --color-border: hsl(3 86% 45%);
+  --color-input: hsl(3 86% 25%);
+  --color-ring: hsl(43 100% 50%);
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply font-sans antialiased bg-background text-foreground selection:bg-secondary selection:text-secondary-foreground;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
