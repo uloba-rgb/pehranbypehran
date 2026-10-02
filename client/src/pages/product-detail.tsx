@@ -9,6 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import heroBg from "@assets/generated_images/subtle_kashmiri_embroidery_background_pattern_in_deep_red_and_gold.png";
 
 export default function ProductDetail() {
   const [, params] = useRoute("/product/:id");
@@ -95,7 +96,16 @@ export default function ProductDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-background text-foreground selection:bg-secondary selection:text-black pt-24 pb-12 px-6">
+    <div className="min-h-screen relative bg-background text-foreground selection:bg-secondary selection:text-black pt-24 pb-12 px-6">
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        
+       <img
+  src={heroBg}
+  alt=""
+  className="w-full h-full object-cover opacity-60"
+/>
+        </div>
+        
       <div className="container mx-auto max-w-6xl">
         <Link href="/" className="inline-flex items-center gap-2 text-[#f3d9b0]/60 hover:text-secondary mb-8 transition-colors">
           <ArrowLeft className="w-4 h-4" /> Back to Collection
