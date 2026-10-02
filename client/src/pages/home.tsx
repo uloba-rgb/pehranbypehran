@@ -183,7 +183,7 @@ export default function Home() {
               transition={{ delay: 0.2, duration: 0.5 }}
             >
               <motion.h1 
-                className="text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-serif font-bold uppercase text-[#f3d9b0] mt-8 tracking-[0.02em] sm:tracking-[0.05em] md:tracking-[0.15em]" 
+                className="text-4xl sm:text-5xl md:text-8xl lg:text-9xl font-serif font-bold uppercase text-[#f3d9b0] mt-14 tracking-[0.02em] sm:tracking-[0.05em] md:tracking-[0.15em]" 
                 initial={{ opacity: 1 }}
                 animate={{ 
                   textShadow: [
@@ -196,7 +196,7 @@ export default function Home() {
               >
                 PEHRAN
               </motion.h1>
-              <p className="text-[50px] sm:text-[55px] md:text-[70px] text-secondary/90 text-center mt-[20px] md:mt-[50px] mb-[30px]" style={{ fontFamily: "'Reem Kufi', sans-serif", fontWeight: 500 }} dir="rtl">
+              <p className="text-[50px] sm:text-[55px] md:text-[70px] text-secondary/90 text-center mt-[35px] md:mt-[50px] mb-[30px]" style={{ fontFamily: "'Reem Kufi', sans-serif", fontWeight: 500 }} dir="rtl">
                 میڈ اِن کشمیر
               </p>
             </motion.div>
